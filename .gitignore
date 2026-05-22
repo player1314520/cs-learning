@@ -1,0 +1,115 @@
+# ==== OS / 系统 ====
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# ==== 编辑器 / IDE ====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.fleet/
+.history/
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg
+
+# ==== C / C++ ====
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.exp
+*.ilk
+*.pdb
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Makefile
+!Makefile.example
+compile_commands.json
+
+# ==== Java ====
+*.class
+*.jar
+*.war
+target/
+.gradle/
+.mvn/
+
+# ==== Rust ====
+target/
+Cargo.lock
+
+# ==== Go ====
+bin/
+pkg/
+
+# ==== Node.js / 前端 ====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+.nuxt/
+.parcel-cache/
+
+# ==== 日志 / 临时文件 ====
+*.log
+*.tmp
+*.bak
+*.old
+*.cache
+
+# ==== 数据 / 大文件（按需放行）====
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ==== 敏感信息 ====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+.env
